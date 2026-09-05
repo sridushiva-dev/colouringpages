@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://colourpages.app/schema/book.json",
+  "title": "ColourPages Book",
+  "type": "object",
+  "required": ["id", "title", "line", "status", "trim", "target_audience"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Unique book identifier (slug)"
+    },
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "line": {
+      "type": "string",
+      "enum": ["serenity", "psychedelia", "landmark_remix", "sprout", "explorer", "creator"]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "IDEA",
+        "RESEARCHED",
+        "BRIEFED",
+        "ART_IN_PROGRESS",
+        "ART_COMPLETE",
+        "PRODUCTION",
+        "QA_PASSED",
+        "LISTING_READY",
+        "AWAITING_PUBLISH_APPROVAL",
+        "PUBLISHED",
+        "LIVE_IN_APP"
+      ]
+    },
+    "target_audience": {
+      "type": "string",
+      "enum": ["adults", "kids"]
+    },
+    "trim": {
+      "type": "string",
+      "enum": ["8.5x11", "8.5x8.5"]
+    },
+    "page_count": {
+      "type": "integer",
+      "minimum": 24,
+      "multipleOf": 2
+    },
+    "art_page_count": {
+      "type": "integer",
+      "description": "Number of illustrated pages (remainder are blank backs)"
+    },
+    "theme": { "type": "string" },
+    "description": { "type": "string" },
+    "kdp": {
+      "type": "object",
+      "properties": {
+        "bleed": { "type": "boolean", "default": false },
+        "paper": { "type": "string", "enum": ["white", "cream"], "default": "white" },
+        "ink": { "type": "string", "enum": ["black_white"], "default": "black_white" }
+      }
+    },
+    "ai_disclosure": {
+      "type": "object",
+      "properties": {
+        "images": { "type": "boolean" },
+        "text": { "type": "boolean" }
+      }
+    },
+    "approvals": {
+      "type": "object",
+      "properties": {
+        "brief": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "art": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "qa": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "listing": { "type": "string", "enum": ["pending", "approved", "rejected"] },
+        "publish": { "type": "string", "enum": ["pending", "approved", "rejected"] }
+      }
+    },
+    "pending_actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "created_at"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["brief_approval", "art_approval", "qa_approval", "listing_approval", "publish_approval", "challenge_approval"]
+          },
+          "created_at": { "type": "string", "format": "date-time" },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["number", "prompt"],
+        "properties": {
+          "number": { "type": "integer", "minimum": 1 },
+          "prompt": { "type": "string" },
+          "challenge": { "type": "string" },
+          "subject": { "type": "string" },
+          "art_file": { "type": "string" }
+        }
+      }
+    },
+    "listing": {
+      "type": "object",
+      "properties": {
+        "keywords": {
+          "type": "array",
+          "items": { "type": "string" },
+          "maxItems": 7
+        },
+        "description_html": { "type": "string" }
+      }
+    },
+    "app": {
+      "type": "object",
+      "properties": {
+        "qr_url": { "type": "string", "format": "uri" },
+        "edition": { "type": "string" }
+      }
+    },
+    "agent_log": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "agent": { "type": "string" },
+          "at": { "type": "string", "format": "date-time" },
+          "message": { "type": "string" }
+        }
+      }
+    },
+    "rejection_notes": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "updated_at": { "type": "string", "format": "date-time" }
+  }
+}

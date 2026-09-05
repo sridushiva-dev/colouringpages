@@ -1,0 +1,133 @@
+book_id: landmark-remix-taj-v1
+title: 'Monuments Reimagined: Taj Mahal'
+subtitle: A Creative Coloring Journey Through Iconic Wonders
+line: landmark_remix
+edition: 2026-01
+qr_url: https://colourpages.app/b/landmark-remix-taj-v1
+target_audience: adults
+pages:
+- number: 1
+  template: templates/001.png
+  prompt: Paint the Taj Mahal as if it were carved entirely from ice.
+  challenge: Add three hidden snowflakes in the architecture.
+  subject: Taj Mahal — classic view
+- number: 2
+  template: templates/002.png
+  prompt: Color this scene as a sunset in a desert oasis.
+  challenge: Make the reflection a different season than the sky.
+  subject: Taj Mahal — reflecting pool
+- number: 3
+  template: templates/003.png
+  prompt: Imagine this garden is underwater — what grows here?
+  challenge: Add two sea creatures hiding among the plants.
+  subject: Taj Mahal — garden pathway
+- number: 4
+  template: templates/004.png
+  prompt: Transform these minarets into towering crystal formations.
+  challenge: null
+  subject: Taj Mahal — minaret detail
+- number: 5
+  template: templates/005.png
+  prompt: Color this arch as if it's a portal to another planet.
+  challenge: Use only cool colors on the left, warm on the right.
+  subject: Taj Mahal — interior arch
+- number: 6
+  template: templates/006.png
+  prompt: Reimagine this monument in a surprising new way (page 6).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 6
+- number: 7
+  template: templates/007.png
+  prompt: Reimagine this monument in a surprising new way (page 7).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 7
+- number: 8
+  template: templates/008.png
+  prompt: Reimagine this monument in a surprising new way (page 8).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 8
+- number: 9
+  template: templates/009.png
+  prompt: Reimagine this monument in a surprising new way (page 9).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 9
+- number: 10
+  template: templates/010.png
+  prompt: Reimagine this monument in a surprising new way (page 10).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 10
+- number: 11
+  template: templates/011.png
+  prompt: Reimagine this monument in a surprising new way (page 11).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 11
+- number: 12
+  template: templates/012.png
+  prompt: Reimagine this monument in a surprising new way (page 12).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 12
+- number: 13
+  template: templates/013.png
+  prompt: Reimagine this monument in a surprising new way (page 13).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 13
+- number: 14
+  template: templates/014.png
+  prompt: Reimagine this monument in a surprising new way (page 14).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 14
+- number: 15
+  template: templates/015.png
+  prompt: Reimagine this monument in a surprising new way (page 15).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 15
+- number: 16
+  template: templates/016.png
+  prompt: Reimagine this monument in a surprising new way (page 16).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 16
+- number: 17
+  template: templates/017.png
+  prompt: Reimagine this monument in a surprising new way (page 17).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 17
+- number: 18
+  template: templates/018.png
+  prompt: Reimagine this monument in a surprising new way (page 18).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 18
+- number: 19
+  template: templates/019.png
+  prompt: Reimagine this monument in a surprising new way (page 19).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 19
+- number: 20
+  template: templates/020.png
+  prompt: Reimagine this monument in a surprising new way (page 20).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 20
+- number: 21
+  template: templates/021.png
+  prompt: Reimagine this monument in a surprising new way (page 21).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 21
+- number: 22
+  template: templates/022.png
+  prompt: Reimagine this monument in a surprising new way (page 22).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 22
+- number: 23
+  template: templates/023.png
+  prompt: Reimagine this monument in a surprising new way (page 23).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 23
+- number: 24
+  template: templates/024.png
+  prompt: Reimagine this monument in a surprising new way (page 24).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 24
+- number: 25
+  template: templates/025.png
+  prompt: Reimagine this monument in a surprising new way (page 25).
+  challenge: Add one hidden detail only you would think of.
+  subject: Monument scene 25

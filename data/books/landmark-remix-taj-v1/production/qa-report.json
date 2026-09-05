@@ -1,0 +1,486 @@
+{
+  "book_id": "landmark-remix-taj-v1",
+  "passed": true,
+  "checks": [
+    {
+      "name": "page_count",
+      "passed": true,
+      "message": "Page count 50 is valid",
+      "severity": "error"
+    },
+    {
+      "name": "page_001_dimensions",
+      "passed": true,
+      "message": "Page 1 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_001_bw",
+      "passed": true,
+      "message": "Page 1 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_001_duplicate",
+      "passed": true,
+      "message": "Page 1 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_002_dimensions",
+      "passed": true,
+      "message": "Page 2 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_002_bw",
+      "passed": true,
+      "message": "Page 2 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_002_duplicate",
+      "passed": true,
+      "message": "Page 2 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_003_dimensions",
+      "passed": true,
+      "message": "Page 3 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_003_bw",
+      "passed": true,
+      "message": "Page 3 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_003_duplicate",
+      "passed": true,
+      "message": "Page 3 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_004_dimensions",
+      "passed": true,
+      "message": "Page 4 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_004_bw",
+      "passed": true,
+      "message": "Page 4 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_004_duplicate",
+      "passed": true,
+      "message": "Page 4 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_005_dimensions",
+      "passed": true,
+      "message": "Page 5 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_005_bw",
+      "passed": true,
+      "message": "Page 5 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_005_duplicate",
+      "passed": true,
+      "message": "Page 5 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_006_dimensions",
+      "passed": true,
+      "message": "Page 6 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_006_bw",
+      "passed": true,
+      "message": "Page 6 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_006_duplicate",
+      "passed": true,
+      "message": "Page 6 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_007_dimensions",
+      "passed": true,
+      "message": "Page 7 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_007_bw",
+      "passed": true,
+      "message": "Page 7 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_007_duplicate",
+      "passed": true,
+      "message": "Page 7 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_008_dimensions",
+      "passed": true,
+      "message": "Page 8 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_008_bw",
+      "passed": true,
+      "message": "Page 8 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_008_duplicate",
+      "passed": true,
+      "message": "Page 8 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_009_dimensions",
+      "passed": true,
+      "message": "Page 9 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_009_bw",
+      "passed": true,
+      "message": "Page 9 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_009_duplicate",
+      "passed": true,
+      "message": "Page 9 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_010_dimensions",
+      "passed": true,
+      "message": "Page 10 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_010_bw",
+      "passed": true,
+      "message": "Page 10 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_010_duplicate",
+      "passed": true,
+      "message": "Page 10 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_011_dimensions",
+      "passed": true,
+      "message": "Page 11 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_011_bw",
+      "passed": true,
+      "message": "Page 11 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_011_duplicate",
+      "passed": true,
+      "message": "Page 11 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_012_dimensions",
+      "passed": true,
+      "message": "Page 12 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_012_bw",
+      "passed": true,
+      "message": "Page 12 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_012_duplicate",
+      "passed": true,
+      "message": "Page 12 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_013_dimensions",
+      "passed": true,
+      "message": "Page 13 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_013_bw",
+      "passed": true,
+      "message": "Page 13 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_013_duplicate",
+      "passed": true,
+      "message": "Page 13 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_014_dimensions",
+      "passed": true,
+      "message": "Page 14 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_014_bw",
+      "passed": true,
+      "message": "Page 14 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_014_duplicate",
+      "passed": true,
+      "message": "Page 14 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_015_dimensions",
+      "passed": true,
+      "message": "Page 15 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_015_bw",
+      "passed": true,
+      "message": "Page 15 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_015_duplicate",
+      "passed": true,
+      "message": "Page 15 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_016_dimensions",
+      "passed": true,
+      "message": "Page 16 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_016_bw",
+      "passed": true,
+      "message": "Page 16 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_016_duplicate",
+      "passed": true,
+      "message": "Page 16 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_017_dimensions",
+      "passed": true,
+      "message": "Page 17 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_017_bw",
+      "passed": true,
+      "message": "Page 17 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_017_duplicate",
+      "passed": true,
+      "message": "Page 17 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_018_dimensions",
+      "passed": true,
+      "message": "Page 18 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_018_bw",
+      "passed": true,
+      "message": "Page 18 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_018_duplicate",
+      "passed": true,
+      "message": "Page 18 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_019_dimensions",
+      "passed": true,
+      "message": "Page 19 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_019_bw",
+      "passed": true,
+      "message": "Page 19 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_019_duplicate",
+      "passed": true,
+      "message": "Page 19 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_020_dimensions",
+      "passed": true,
+      "message": "Page 20 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_020_bw",
+      "passed": true,
+      "message": "Page 20 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_020_duplicate",
+      "passed": true,
+      "message": "Page 20 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_021_dimensions",
+      "passed": true,
+      "message": "Page 21 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_021_bw",
+      "passed": true,
+      "message": "Page 21 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_021_duplicate",
+      "passed": true,
+      "message": "Page 21 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_022_dimensions",
+      "passed": true,
+      "message": "Page 22 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_022_bw",
+      "passed": true,
+      "message": "Page 22 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_022_duplicate",
+      "passed": true,
+      "message": "Page 22 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_023_dimensions",
+      "passed": true,
+      "message": "Page 23 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_023_bw",
+      "passed": true,
+      "message": "Page 23 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_023_duplicate",
+      "passed": true,
+      "message": "Page 23 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_024_dimensions",
+      "passed": true,
+      "message": "Page 24 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_024_bw",
+      "passed": true,
+      "message": "Page 24 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_024_duplicate",
+      "passed": true,
+      "message": "Page 24 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_025_dimensions",
+      "passed": true,
+      "message": "Page 25 dimensions OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_025_bw",
+      "passed": true,
+      "message": "Page 25 B&W check OK",
+      "severity": "error"
+    },
+    {
+      "name": "page_025_duplicate",
+      "passed": true,
+      "message": "Page 25 uniqueness OK",
+      "severity": "error"
+    },
+    {
+      "name": "interior_pdf",
+      "passed": true,
+      "message": "interior_pdf exists (1977 KB)",
+      "severity": "error"
+    },
+    {
+      "name": "cover_pdf",
+      "passed": true,
+      "message": "cover_pdf exists (8 KB)",
+      "severity": "error"
+    },
+    {
+      "name": "manifest_templates",
+      "passed": true,
+      "message": "All 25 templates present",
+      "severity": "error"
+    },
+    {
+      "name": "manifest",
+      "passed": true,
+      "message": "App manifest exists",
+      "severity": "error"
+    }
+  ]
+}

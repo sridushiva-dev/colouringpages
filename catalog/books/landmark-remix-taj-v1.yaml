@@ -1,0 +1,122 @@
+id: landmark-remix-taj-v1
+title: 'Monuments Reimagined: Taj Mahal'
+subtitle: A Creative Coloring Journey Through Iconic Wonders
+line: landmark_remix
+status: AWAITING_PUBLISH_APPROVAL
+target_audience: adults
+trim: 8.5x11
+page_count: 50
+art_page_count: 25
+theme: Taj Mahal and Indian monuments reimagined with creative prompts
+description: 'Color famous monuments as you''ve never seen them before. Each page
+  features a creative prompt to spark your imagination — ice palaces, jungle ruins,
+  cosmic temples, and more.
+
+  '
+kdp:
+  bleed: false
+  paper: white
+  ink: black_white
+ai_disclosure:
+  images: true
+  text: true
+approvals:
+  brief: approved
+  art: pending
+  qa: pending
+  listing: pending
+  publish: pending
+pending_actions:
+- type: art_approval
+  created_at: '2026-09-05T18:30:00Z'
+  notes: Awaiting art generation batch
+- type: publish_approval
+  created_at: '2026-09-05T18:32:24.713409+00:00'
+  notes: Publish package ready for Control Center review
+app:
+  qr_url: https://colourpages.app/b/landmark-remix-taj-v1
+  edition: 2026-01
+pages:
+- number: 1
+  subject: Taj Mahal — classic view
+  prompt: Paint the Taj Mahal as if it were carved entirely from ice.
+  challenge: Add three hidden snowflakes in the architecture.
+- number: 2
+  subject: Taj Mahal — reflecting pool
+  prompt: Color this scene as a sunset in a desert oasis.
+  challenge: Make the reflection a different season than the sky.
+- number: 3
+  subject: Taj Mahal — garden pathway
+  prompt: Imagine this garden is underwater — what grows here?
+  challenge: Add two sea creatures hiding among the plants.
+- number: 4
+  subject: Taj Mahal — minaret detail
+  prompt: Transform these minarets into towering crystal formations.
+- number: 5
+  subject: Taj Mahal — interior arch
+  prompt: Color this arch as if it's a portal to another planet.
+  challenge: Use only cool colors on the left, warm on the right.
+listing:
+  keywords:
+  - taj mahal coloring book
+  - adult coloring book
+  - landmark coloring
+  - creative prompts
+  - travel coloring book
+  - mindfulness art
+  - architecture coloring
+  description_html: ''
+agent_log:
+- agent: creative-director
+  at: '2026-09-05T18:00:00Z'
+  message: Creative brief completed. 25 pages planned; 5 sample prompts defined.
+- agent: ceo
+  at: '2026-09-05T18:15:00Z'
+  message: Pilot book selected for pipeline validation.
+- agent: production
+  at: '2026-09-05T18:30:01.685488+00:00'
+  message: Build complete. Preflight passed=False
+- agent: qa
+  at: '2026-09-05T18:30:01.685508+00:00'
+  message: Preflight failed with 21 issues
+- agent: production
+  at: '2026-09-05T18:30:33.014706+00:00'
+  message: Build complete. Preflight passed=False
+- agent: qa
+  at: '2026-09-05T18:30:33.014736+00:00'
+  message: Preflight failed with 19 issues
+- agent: production
+  at: '2026-09-05T18:30:55.463213+00:00'
+  message: Build complete. Preflight passed=False
+- agent: qa
+  at: '2026-09-05T18:30:55.463243+00:00'
+  message: Preflight failed with 18 issues
+- agent: production
+  at: '2026-09-05T18:31:19.491120+00:00'
+  message: Build complete. Preflight passed=False
+- agent: qa
+  at: '2026-09-05T18:31:19.491152+00:00'
+  message: Preflight failed with 2 issues
+- agent: production
+  at: '2026-09-05T18:31:40.950225+00:00'
+  message: Build complete. Preflight passed=False
+- agent: qa
+  at: '2026-09-05T18:31:40.950256+00:00'
+  message: Preflight failed with 4 issues
+- agent: production
+  at: '2026-09-05T18:32:02.921316+00:00'
+  message: Build complete. Preflight passed=False
+- agent: qa
+  at: '2026-09-05T18:32:02.921350+00:00'
+  message: Preflight failed with 5 issues
+- agent: production
+  at: '2026-09-05T18:32:24.713269+00:00'
+  message: Build complete. Preflight passed=False
+- agent: qa
+  at: '2026-09-05T18:32:24.713301+00:00'
+  message: Preflight failed with 5 issues
+- agent: production
+  at: '2026-09-05T18:32:45.770370+00:00'
+  message: Build complete. Preflight passed=True
+created_at: '2026-09-05T17:00:00Z'
+updated_at: '2026-09-05T18:32:45.770505+00:00'
