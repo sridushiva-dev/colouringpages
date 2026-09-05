@@ -1,0 +1,16 @@
+# Railway deploys automatically from Dockerfile at repo root context.
+# In Railway dashboard:
+#   1. New Project → Deploy from GitHub → select this repo
+#   2. Set Dockerfile path: apps/admin/Dockerfile
+#   3. Set root directory: / (repo root)
+#   4. Variables: ADMIN_PASSWORD, CATALOG_DIR=/catalog/books, DATA_DIR=/data/books
+#   5. (Optional) Attach a volume mounted at /data for persistent book artifacts
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "apps/admin/Dockerfile"
+
+[deploy]
+healthcheckPath = "/api/health"
+healthcheckTimeout = 30
+restartPolicyType = "ON_FAILURE"

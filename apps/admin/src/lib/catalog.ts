@@ -3,20 +3,14 @@ import fs from "fs";
 import path from "path";
 import yaml from "js-yaml";
 
-function repoPath(...segments: string[]) {
-  return path.join(process.cwd(), ...segments);
-}
-
 export function getCatalogDir(): string {
-  return process.env.CATALOG_DIR
-    ? path.resolve(process.cwd(), process.env.CATALOG_DIR)
-    : repoPath("../../catalog/books");
+  const dir = process.env.CATALOG_DIR ?? "../../catalog/books";
+  return path.isAbsolute(dir) ? dir : path.resolve(process.cwd(), dir);
 }
 
 export function getDataDir(): string {
-  return process.env.DATA_DIR
-    ? path.resolve(process.cwd(), process.env.DATA_DIR)
-    : repoPath("../../data/books");
+  const dir = process.env.DATA_DIR ?? "../../data/books";
+  return path.isAbsolute(dir) ? dir : path.resolve(process.cwd(), dir);
 }
 
 export function listBooks(): BookRecord[] {

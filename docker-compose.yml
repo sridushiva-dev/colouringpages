@@ -1,0 +1,16 @@
+services:
+  admin:
+    build:
+      context: .
+      dockerfile: apps/admin/Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:-colourpages-dev}
+      CATALOG_DIR: /catalog/books
+      DATA_DIR: /data/books
+    volumes:
+      # Persist approvals and generated packages across restarts
+      - ./catalog/books:/catalog/books
+      - ./data/books:/data/books
+    restart: unless-stopped

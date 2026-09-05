@@ -44,15 +44,15 @@ colourpages-preflight --book-id landmark-remix-taj-v1
 colourpages-build --book-id landmark-remix-taj-v1
 ```
 
-### 4. Start Control Center
+### 4. Deploy Control Center (Docker — any host)
+
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for Railway, Fly.io, Render, or VPS.
 
 ```bash
-cd apps/admin
-npm install
-npm run dev
+# Local production test
+export ADMIN_PASSWORD=your-secure-password
+docker compose up --build
 ```
-
-Open http://localhost:3000 — default admin password in `.env.example`.
 
 ## Documentation
 
@@ -60,6 +60,7 @@ Open http://localhost:3000 — default admin password in `.env.example`.
 - [Style bible](docs/STYLE_BIBLE.md)
 - [Workflows](docs/WORKFLOWS.md)
 - [Setup checklist](docs/SETUP_CHECKLIST.md)
+- [Deployment guide](docs/DEPLOYMENT.md) — Railway, Fly.io, Render, VPS (not Vercel-only)
 
 ## Pipeline States
 
