@@ -1,0 +1,11 @@
+# Use repo-root Dockerfile (auto-detected by Railway/Render when no path is set).
+# Do NOT set the service root directory to apps/admin — the image needs catalog/ and data/.
+
+[build]
+builder = "dockerfile"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+healthcheckPath = "/api/health"
+healthcheckTimeout = 30
+restartPolicyType = "ON_FAILURE"

@@ -1,0 +1,19 @@
+# Large generated assets
+data/books/**/art/
+data/books/**/production/*.pdf
+data/books/**/app-bundle/templates/
+data/books/**/publish-ready.zip
+apps/admin/data/
+
+# Admin
+apps/admin/.next/
+apps/admin/node_modules/
+
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+
+# Env
+.env
+.env.local
