@@ -2,7 +2,7 @@ services:
   - type: web
     name: colourpages-admin
     runtime: docker
-    dockerfilePath: ./apps/admin/Dockerfile
+    dockerfilePath: ./Dockerfile
     dockerContext: .
     plan: starter
     region: oregon

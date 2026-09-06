@@ -1,0 +1,26 @@
+# Git
+.git
+.gitignore
+
+# Dependencies
+**/node_modules
+**/.next
+
+# Python
+**/__pycache__
+**/*.egg-info
+.venv
+
+# Local env
+**/.env.local
+**/.env
+
+# Large generated assets (rebuilt in pipeline; sample data is small)
+data/books/**/art/
+data/books/**/production/*.pdf
+data/books/**/publish-ready.zip
+data/books/**/app-bundle/templates/
+
+# IDE
+.cursor
+**/.DS_Store

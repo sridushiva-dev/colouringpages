@@ -1,5 +1,5 @@
 # ColourPages Control Center — build from repo root:
-#   docker build -f apps/admin/Dockerfile -t colourpages-admin .
+#   docker build -t colourpages-admin .
 
 FROM node:20-alpine AS base
 RUN apk add --no-cache libc6-compat
@@ -34,9 +34,11 @@ ENV DATA_DIR=/data/books
 ENV PORT=3000
 ENV HOSTNAME=0.0.0.0
 
+# Next.js standalone server + static assets
 COPY --from=builder --chown=nextjs:nodejs /app/apps/admin/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/apps/admin/.next/static ./.next/static
 
+# Book catalog and artifacts
 COPY --chown=nextjs:nodejs catalog /catalog
 COPY --chown=nextjs:nodejs data /data
 

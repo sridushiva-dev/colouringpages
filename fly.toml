@@ -3,7 +3,7 @@ app = "colourpages-admin"
 primary_region = "iad"
 
 [build]
-  dockerfile = "apps/admin/Dockerfile"
+  dockerfile = "Dockerfile"
 
 [env]
   CATALOG_DIR = "/catalog/books"
