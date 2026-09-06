@@ -158,7 +158,29 @@ Refactor to **Postgres + S3** later if you want fully serverless — we can do t
 
 ---
 
-## Security checklist
+## Troubleshooting failed builds
+
+### "COPY failed: file not found" (catalog or data)
+
+The Docker build context must be the **repo root**, not `apps/admin`. Reset the service root directory to `/` in Railway/Render.
+
+### Build succeeds but app crashes on start
+
+Usually means `server.js` or static assets were on the wrong path. Use the latest `Dockerfile` at repo root (fixed in recent commits).
+
+### Railway uses Nixpacks instead of Docker
+
+Ensure `railway.json` or `railway.toml` exists at repo root, or manually set builder to **Dockerfile** in service settings.
+
+### Render / Fly build fails
+
+Confirm `dockerContext` is `.` (repo root) and Dockerfile path is `Dockerfile`.
+
+### Still stuck?
+
+Check GitHub Actions → **CI** workflow on your branch for `admin-build` and `docker-build` job results.
+
+---
 
 - [ ] Set a strong `ADMIN_PASSWORD` (20+ chars)
 - [ ] HTTPS enabled (all platforms above do this automatically)
